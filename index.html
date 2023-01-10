@@ -1,20 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>A birthday card</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-   <div class ="container"></div>
-  <div class ="card"></div>
-    <div class ="outside"></div>
-      <div class="front"></div>
-     <div class="text">Happy New Year</div>
-      <div class="back"></div>
-        <div class="text"> Happy New Year</div>
-    <div class="inside"></div> 
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Sidebar</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <ul class="link-items">
+        <li class="link-item top">
+          <a href="#" class="link">
+            <img src="https://i.pinimg.com/280x280_RS/44/6f/56/446f561140146f173af22fd9e558bbdd.jpg" alt="" />
+            <span style="--i: 9">
+              <h4>Raja Junaid</h4>
+            </span>
+          </a>
+        </li>
+        <li class="link-item active">
+          <a href="#" class="link">
+            <ion-icon name="home-outline"></ion-icon>
+            <span style="--i: 1">Home</span>
+          </a>
+        </li>
+        <li class="link-item">
+          <a href="#" class="link">
+            <ion-icon name="cube-outline"></ion-icon>
+            <span style="--i: 2">dashboard</span>
+          </a>
+        </li>
+        <li class="link-item">
+          <a href="#" class="link"
+            ><ion-icon name="layers-outline"></ion-icon>
+            <span style="--i: 3">projects</span>
+          </a>
+        </li>
+        <li class="link-item">
+          <a href="#" class="link">
+            <ion-icon name="checkbox-outline"></ion-icon
+            ><span style="--i: 5">tasks</span>
+          </a>
+        </li>
+        <li class="link-item">
+          <a href="#" class="link">
+            <ion-icon name="stopwatch-outline"></ion-icon>
+            <span style="--i: 7">schedule</span>
+          </a>
+        </li>
+        <li class="link-item">
+          <a href="#" class="link">
+            <ion-icon class="noti-icon" name="notifications-outline"></ion-icon>
+            <span style="--i: 4">activity</span>
+            <span class="num-noti">8</span>
+          </a>
+        </li>
+        <li class="link-item">
+          <a href="#" class="link">
+            <ion-icon name="cog-outline"></ion-icon>
+            <span style="--i: 6">settings</span>
+          </a>
+        </li>
+
+        <li class="link-item dark-mode">
+          <a href="#" class="link">
+            <ion-icon name="moon-outline"></ion-icon>
+            <span style="--i: 8">dark mode</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="script.js"></script>
+  </body>
 </html>
